@@ -2,6 +2,8 @@
 
 Welcome to the **AzureQueryChatbot: Interactive PDF Content and Citation Retrieval Using Azure Services**! This app provides an easy and intuitive interface where users can query information about the contents stored in an Azure Search Index. The application is built to handle queries about various entities and display the relevant information in a tabular format.
 
+![Example Image](https://github.com/dbae1145/images/blob/main/AzureQueryChatBotExample.png)
+
 ## Features
 
 ### 1. Upload PDF Files
