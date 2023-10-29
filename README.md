@@ -26,7 +26,7 @@ Welcome to the **AzureQueryChatbot: Interactive PDF Content and Citation Retriev
 - The citations are retrieved from the Azure Storage Blob.
 
 ### 4. Tabular Format for Multiple Entities
-- The application has the capability to query about multiple entities (e.g., universities)
+- The application has the capability to query about multiple entities (e.g., universities in the example above - data were taken from [**U.S.News Best National University Ranking**](https://www.usnews.com/best-colleges/rankings/national-universities) )
 - The information about the entities is displayed in a tabular format.
 
 ## How to Use
