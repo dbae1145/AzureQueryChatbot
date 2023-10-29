@@ -402,10 +402,17 @@ def school_review(df):
 
     layout_container = st.empty()
 
+    # primaryColor = "#231f1c"
+    # backgroundColor = "#e3dfdc"
+    # secondaryBackgroundColor = "#f5f8f2"
+    # textColor = "#1b0608"
+
+
     chat_html = ""
     for message in st.session_state.messages:
         icon = "👤" if message["role"] == "user" else "🤖"
-        background_color = "#f5f8f2"
+        background_color = "#f7f8fa" if message["role"] == "user" else "#ffffff"
+
         content = message["content"].replace("$", "\$")
         chat_html += f"<div class='message {message['role']}' style='background-color: {background_color}; margin: 5px; padding: 10px; border-radius: 5px; '>{icon} {content}</div>"
 
